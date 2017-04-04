@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CFGradient_Example' do
+  pod 'CFGradient', :path => '../'
+
+  target 'CFGradient_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
