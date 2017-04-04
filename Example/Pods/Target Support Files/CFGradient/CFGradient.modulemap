@@ -1,0 +1,6 @@
+framework module CFGradient {
+  umbrella header "CFGradient-umbrella.h"
+
+  export *
+  module * { export * }
+}

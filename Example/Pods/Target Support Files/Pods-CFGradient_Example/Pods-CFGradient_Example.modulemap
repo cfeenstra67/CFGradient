@@ -1,0 +1,6 @@
+framework module Pods_CFGradient_Example {
+  umbrella header "Pods-CFGradient_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

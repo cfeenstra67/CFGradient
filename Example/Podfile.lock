@@ -1,0 +1,16 @@
+PODS:
+  - CFGradient (0.9.0)
+
+DEPENDENCIES:
+  - CFGradient (from `../`)
+
+EXTERNAL SOURCES:
+  CFGradient:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CFGradient: d961caca7e42a0f28fea9b286f5f39f930730bed
+
+PODFILE CHECKSUM: ed495d33a6751987c4f90a342416223c67ca7607
+
+COCOAPODS: 1.2.0
