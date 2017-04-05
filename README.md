@@ -13,9 +13,9 @@ Example of animating curveConstant on a CFGradientView:
 
 ![image](https://cloud.githubusercontent.com/assets/24579331/24692032/f588f184-19a4-11e7-992d-ed431b21b1c0.gif)
 
-CFGradientLayer Properties:
+CFGradientLayer Properties (All Animatable):
 
-gradientType- either AxialGradient or RadialGradient.  Exactly what it sounds like.  Animatable
+gradientType- either AxialGradient or RadialGradient.  Exactly what it sounds like
 
 startColor- CGColorRef used at the beginning of the gradient.  If radial, this is at the center of the layer, and if axial it is at the startPoint of the layer
 

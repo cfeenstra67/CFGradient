@@ -95,6 +95,8 @@
     if([[self.class propertyKeys] containsObject:event]){
         CABasicAnimation *animation=[CABasicAnimation animationWithKeyPath:event];
         animation.fromValue=[self.presentationLayer valueForKey:event];
+        animation.duration=[CATransaction animationDuration];
+        animation.timingFunction=[CATransaction animationTimingFunction];
         return animation;
     }
     return [super actionForKey:event];
