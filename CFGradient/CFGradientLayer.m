@@ -110,7 +110,7 @@
             CGContextDrawLinearGradient(ctx, gradient, CGPointMake(self.bounds.size.width*self.startPoint.x, self.bounds.size.height*self.startPoint.y), CGPointMake(self.bounds.size.width*self.endPoint.x, self.bounds.size.height*self.endPoint.y), kCGGradientDrawsBeforeStartLocation);
             break;
         case RadialGradient:
-            CGContextDrawRadialGradient(ctx, gradient, [self centerOfRect:self.bounds], 0, [self centerOfRect:self.bounds], self.radius*MIN(self.frame.size.width,self.frame.size.height), kCGGradientDrawsAfterEndLocation);
+            CGContextDrawRadialGradient(ctx, gradient, [self centerOfRect:self.bounds], 0, [self centerOfRect:self.bounds], self.radius*MIN(self.frame.size.width,self.frame.size.height)/2.0f, kCGGradientDrawsAfterEndLocation);
             break;
     }
     CGGradientRelease(gradient);
