@@ -9,7 +9,26 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+Example of animating curveConstant on a CFGradientView:
+
 ![image](https://cloud.githubusercontent.com/assets/24579331/24692032/f588f184-19a4-11e7-992d-ed431b21b1c0.gif)
+
+CFGradientLayer Properties:
+
+gradientType- either AxialGradient or RadialGradient.  Exactly what it sounds like.  Animatable
+
+startColor- CGColorRef used at the beginning of the gradient.  If radial, this is at the center of the layer, and if axial it is at the startPoint of the layer
+
+endColor- CGColorRef, opposite of startColor
+
+startPoint- CGPoint that is used as the relative start point for the gradient if the gradient type is axial.  Values for x and y should be between 0 and 1.
+
+endPoint- CGPoint, opposite of startPoint
+
+radius- CGFloat used as the relative radius if the gradient type is radial.  Value should be between 0 and 1.
+
+curveConstant- CGFloat used to define the gradient curve.  Value should be between 0 and 1.
+
 
 ## Requirements
 
