@@ -58,7 +58,6 @@
     self.endColor=[UIColor whiteColor].CGColor;
     self.gradientType=AxialGradient;
     
-    __weak typeof(self) weakSelf=self;
     [self setNeedsDisplay];
     return self;
 }
@@ -102,7 +101,6 @@
 }
 
 -(void)drawInContext:(CGContextRef)ctx{
-    CGFloat *comps, *locations;
     CGColorSpaceRef space=CGColorSpaceCreateDeviceRGB();
     CGGradientRef gradient=CGGradientCreateWithColors(space, (__bridge CFArrayRef)[self colors], nil);
     switch(self.gradientType){
