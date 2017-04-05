@@ -19,7 +19,7 @@ typedef enum {
 
 +(CFGradientLayer*)layerWithType:(GradientType)type;
 
-@property (readonly) GradientType gradientType;
+@property (nonatomic) GradientType gradientType;
 
 @property (nonatomic) CGPoint startPoint;
 

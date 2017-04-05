@@ -10,8 +10,6 @@
 #import <UIKit/UIKit.h>
 
 @interface CFGradientLayer(){
-    
-    GradientType type;
 }
 
 +(NSArray<NSString*>*)propertyKeys;
@@ -30,6 +28,7 @@
     [a addObject:@"curveConstant"];
     [a addObject:@"startColor"];
     [a addObject:@"endColor"];
+    [a addObject:@"gradientType"];
     return a;
 }
 
@@ -39,11 +38,12 @@
 @dynamic curveConstant;
 @dynamic startColor;
 @dynamic endColor;
+@dynamic gradientType;
 
 -(id)initWithLayer:(id)layer{
     self=[super initWithLayer:layer];
     if([[layer class] isSubclassOfClass:self.class]){
-        type=[(CFGradientLayer*)layer gradientType];
+        self.gradientType=[(CFGradientLayer*)layer gradientType];
     }
     return self;
 }
@@ -56,7 +56,7 @@
     self.curveConstant=0.0f;
     self.startColor=[UIColor whiteColor].CGColor;
     self.endColor=[UIColor whiteColor].CGColor;
-    type=AxialGradient;
+    self.gradientType=AxialGradient;
     
     __weak typeof(self) weakSelf=self;
     [self setNeedsDisplay];
@@ -65,16 +65,12 @@
 
 -(id)initWithType:(GradientType)typ{
     self=[self init];
-    type=typ;
+    self.gradientType=typ;
     return self;
 }
 
 +(CFGradientLayer*)layerWithType:(GradientType)typ{
     return [[CFGradientLayer alloc] initWithType:typ];
-}
-
--(GradientType)gradientType{
-    return type;
 }
 
 //Utility Methods

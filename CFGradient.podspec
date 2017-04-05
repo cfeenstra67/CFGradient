@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CFGradient'
-  s.version          = '0.15.0'
-  s.summary          = 'A short description of CFGradient.'
+  s.version          = '1.0.0'
+  s.summary          = "The gradient package you've been waiting for."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This pod defines two classes: CFGradientView and CFGradientLayer.  They are effectively the same when used--CAGradientView simply uses CAGradientLayer as its base layer and uses its base layer's getter and setter methods for its custom properties.  These classes allow you to create beautiful, animatable gradients, either axial or radial!  Perhaps the best addition is the curveConstant property of CFGradientView and CFGradientLayer.  This allows you to define the exact distribution of colors between the startColor and endColor.
                        DESC
 
   s.homepage         = 'https://github.com/cfeenstra67/CFGradient'

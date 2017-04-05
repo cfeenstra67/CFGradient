@@ -7,7 +7,6 @@
 //
 
 #import "CFGradientView.h"
-#import "CFGradientLayer.h"
 
 @interface CFGradientView(){
     
@@ -28,6 +27,18 @@
 -(id)init{
     self=[super init];
     
+    return self;
+}
+
+-(id)initWithType:(GradientType)type{
+    self=[self init];
+    self.gradientType=type;
+    return self;
+}
+
+-(id)initWithFrame:(CGRect)frame type:(GradientType)type{
+    self=[super initWithFrame:frame];
+    self.gradientType=type;
     return self;
 }
 
@@ -84,6 +95,14 @@
 
 -(void)setEndColor:(UIColor *)endColor{
     [(CFGradientLayer*)self.layer setEndColor:endColor.CGColor];
+}
+
+-(GradientType)gradientType{
+    return [(CFGradientLayer*)self.layer gradientType];
+}
+
+-(void)setGradientType:(GradientType)gradientType{
+    [(CFGradientLayer*)self.layer setGradientType:gradientType];
 }
 
 @end

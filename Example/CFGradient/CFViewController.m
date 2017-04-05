@@ -10,7 +10,7 @@
 #import <CFGradient/CFGradient.h>
 
 @interface CFViewController (){
-    CFGradientLayer *layer;
+    CFGradientView *layer;
     UISlider *slider;
 }
 
@@ -21,15 +21,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    layer=[[CFGradientLayer alloc] initWithType:RadialGradient];
+    layer=[[CFGradientView alloc] initWithType:AxialGradient];
     layer.frame=self.view.bounds;
     layer.startPoint=CGPointMake(0, 0);
     layer.endPoint=CGPointMake(0, 1);
-    layer.radius=.5;
-    layer.startColor=[[UIColor redColor] colorWithAlphaComponent:.75].CGColor;
-    layer.endColor=[UIColor blackColor].CGColor;
+    layer.startColor=[[UIColor redColor] colorWithAlphaComponent:.75];
+    layer.endColor=[UIColor blackColor];
     layer.curveConstant=0.5f;
-    [self.view.layer addSublayer:layer];
+    [self.view addSubview:layer];
     
     slider=[[UISlider alloc] initWithFrame:self.view.bounds];
     [slider addTarget:self action:@selector(sliderValueChange:) forControlEvents:UIControlEventValueChanged];
@@ -52,7 +51,7 @@
 }
 
 -(void)buttonPressed:(id)sender{
-    [UIView animateWithDuration:.5 animations:^{
+    [UIView animateWithDuration:1 animations:^{
         layer.curveConstant=0.0f;
         slider.value=0.0f;
     } completion:^(BOOL finished){
