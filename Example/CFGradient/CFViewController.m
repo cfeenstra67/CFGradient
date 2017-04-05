@@ -51,8 +51,13 @@
 }
 
 -(void)buttonPressed:(id)sender{
-    [UIView animateWithDuration:1 animations:^{
+    NSTimeInterval duration=.5f;
+    [UIView animateWithDuration:duration animations:^{
+        [CATransaction begin];
+        [CATransaction setAnimationDuration:duration];
+        [CATransaction setAnimationTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionLinear]];
         layer.curveConstant=0.0f;
+        [CATransaction commit];
         slider.value=0.0f;
     } completion:^(BOOL finished){
     }];
