@@ -1,6 +1,6 @@
 {
   "name": "CFGradient",
-  "version": "0.9.0",
+  "version": "0.15.0",
   "summary": "A short description of CFGradient.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/cfeenstra67/CFGradient",
@@ -13,13 +13,10 @@
   },
   "source": {
     "git": "https://github.com/cfeenstra67/CFGradient.git",
-    "tag": "0.9.0"
+    "tag": "0.15.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": [
-    "CFGradient",
-    "CFGradient/*.{h,m}"
-  ]
+  "source_files": "CFGradient/*.{h,m}"
 }

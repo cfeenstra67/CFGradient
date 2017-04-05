@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C92C10DDF366025C52E8473F917D3DAC53D5234B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E894CF4212BE61F10828765B9B58964515B3846A" : 9223372036854775807,
+    "C92C10DDF366025C52E8473F917D3DAC53D5234B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FB251F8D-CFA7-4259-82EC-B328430C6BE9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E894CF4212BE61F10828765B9B58964515B3846A" : "Documents\/BlockShadow\/",
+    "C92C10DDF366025C52E8473F917D3DAC53D5234B" : "CFGradient\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CFGradient",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/CFGradient.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cfeenstra67\/CFGradient.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C92C10DDF366025C52E8473F917D3DAC53D5234B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cfeenstra67\/BlockShadow.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E894CF4212BE61F10828765B9B58964515B3846A"
+    }
+  ]
+}

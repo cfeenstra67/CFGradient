@@ -10,7 +10,7 @@
 #define CFGradient_h
 
 #import "CFGradientLayer.h"
-
+#import "CFGradientView.h"
 
 
 #endif /* CFGradient_h */

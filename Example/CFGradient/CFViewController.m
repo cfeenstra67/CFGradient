@@ -7,10 +7,12 @@
 //
 
 #import "CFViewController.h"
-#import 
+#import <CFGradient/CFGradient.h>
 
-
-@interface CFViewController ()
+@interface CFViewController (){
+    CFGradientLayer *layer;
+    UISlider *slider;
+}
 
 @end
 
@@ -19,7 +21,42 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    layer=[[CFGradientLayer alloc] initWithType:RadialGradient];
+    layer.frame=self.view.bounds;
+    layer.startPoint=CGPointMake(0, 0);
+    layer.endPoint=CGPointMake(0, 1);
+    layer.radius=.5;
+    layer.startColor=[[UIColor redColor] colorWithAlphaComponent:.75].CGColor;
+    layer.endColor=[UIColor blackColor].CGColor;
+    layer.curveConstant=0.5f;
+    [self.view.layer addSublayer:layer];
+    
+    slider=[[UISlider alloc] initWithFrame:self.view.bounds];
+    [slider addTarget:self action:@selector(sliderValueChange:) forControlEvents:UIControlEventValueChanged];
+    slider.minimumValue=0.0f;
+    slider.maximumValue=1.0f;
+    [self.view addSubview:slider];
+    
+    UIButton *button=[[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 64)];
+    [button setTitle:@"Animate" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [button setBackgroundColor:[UIColor whiteColor]];
+    [button addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    button.center=CGPointMake(self.view.center.x, self.view.center.y-100.0f);
+    [self.view addSubview:button];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)sliderValueChange:(UISlider*)slide{
+    layer.curveConstant=slide.value;
+}
+
+-(void)buttonPressed:(id)sender{
+    [UIView animateWithDuration:.5 animations:^{
+        layer.curveConstant=0.0f;
+        slider.value=0.0f;
+    } completion:^(BOOL finished){
+    }];
 }
 
 - (void)didReceiveMemoryWarning

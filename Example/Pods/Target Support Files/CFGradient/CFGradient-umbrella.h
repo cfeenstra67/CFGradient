@@ -12,6 +12,7 @@
 
 #import "CFGradient.h"
 #import "CFGradientLayer.h"
+#import "CFGradientView.h"
 #import "CFPoint.h"
 
 FOUNDATION_EXPORT double CFGradientVersionNumber;

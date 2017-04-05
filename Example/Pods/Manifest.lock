@@ -1,5 +1,5 @@
 PODS:
-  - CFGradient (0.9.0)
+  - CFGradient (0.15.0)
 
 DEPENDENCIES:
   - CFGradient (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  CFGradient: d961caca7e42a0f28fea9b286f5f39f930730bed
+  CFGradient: 32a12bfd42e40f9b0796a9ad15f5eed2fafa1554
 
 PODFILE CHECKSUM: ed495d33a6751987c4f90a342416223c67ca7607
 

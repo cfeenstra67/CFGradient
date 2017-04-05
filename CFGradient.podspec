@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CFGradient'
-  s.version          = '0.9.0'
+  s.version          = '0.15.0'
   s.summary          = 'A short description of CFGradient.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-    s.source_files               = "CFGradient", "CFGradient/*.{h,m}"
+s.source_files  =  "CFGradient/*.{h,m}"
 
   # s.resource_bundles = {
   #   'CFGradient' => ['CFGradient/Assets/*.png']

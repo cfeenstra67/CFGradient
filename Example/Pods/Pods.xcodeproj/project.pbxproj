@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0962F41DAD27AA63D404261C62767F00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		09EE41BBC8B229274A8D755EBFB8F7C5 /* Pods-CFGradient_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A2549C6996A581A8AEADCB45D2C40D /* Pods-CFGradient_Tests-dummy.m */; };
-		2B6758C6926E771A4581C205C95171A6 /* CFPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FD49A3A1020E1D0B4E26D4D310D45E1 /* CFPoint.m */; };
+		155D01590F8CDFD60F17F993D1E4C661 /* CFPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 06E86DC6D6832B21E7AEFC6C1E1F9F2B /* CFPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CEA42714C1E43455416EDFB56115466 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		509B89C8294A081EED8B11CBF6D39C01 /* CFGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF63A7D72C3EE941754B15E6835D6F5 /* CFGradientLayer.m */; };
+		648CA5DE326B7377590F0A11E9C12F5C /* CFGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F0F78B536A66C284031D1B5DCC48C08 /* CFGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C4031F32DFA2A164B5B7941FDDAC28C /* CFGradient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D4D297DFF67AE02C4EB27B49B1E4C93 /* CFGradient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E4CD216CC8CA9CA1520BB5C9BA8EDE3 /* CFGradient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3275CA075368D58383DBE51F3BA9729F /* CFGradient-dummy.m */; };
+		88D7252C50993AA77BC9EF0847434CB3 /* CFPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = EC52299199630153CF1DFC724AB4C4E8 /* CFPoint.m */; };
 		8B77C5446F3F8F464A10871591DC4762 /* Pods-CFGradient_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0DD163BF1408C73AF0F50204B31806 /* Pods-CFGradient_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B19D0E66DDB6DFDCCC72A2FEF3141AA6 /* CFGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 51D9C47878DEF40D179770D933256A3E /* CFGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5FA0DEF1157CB4B7B582DB51B9C36B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		CA4CE099CAE1F49501EA27386F58E577 /* CFPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EDDC5DDD4C2EEA3DEC0525BF9A71E0B /* CFPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB5FCBFB63BB4707A4FF26993C0587D0 /* CFGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E0EF3B886D6EDA2D17800D58BBC471 /* CFGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D9F20DC40BB27C17D21287C851D251B /* CFGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 456C33A898E412FBEBA28173129E4E19 /* CFGradientLayer.m */; };
+		C0F78D4D1F3181702B5FA7611D3528A8 /* CFGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC6419539D0CE131B4416F2C2518C27 /* CFGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3298EDA6660A5C422EB95B3EC986C87 /* CFGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 814C0F02059D2323E89C4094945F2A13 /* CFGradientView.m */; };
+		D7D135D690D08B1AAF1CF0849796FA51 /* CFGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 7560A0F4ABC847D15BEFFCCC508DE9DD /* CFGradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D899358CA637139724E5CF4851AD58B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		ECE8153425C9D5C6C256BC3FF7280036 /* Pods-CFGradient_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC71B5EC2F4EDBB23F5C5C827454AC64 /* Pods-CFGradient_Example-dummy.m */; };
-		ECE88C96C6631FED6BF13048A081A083 /* CFGradient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC33283871DCAED0572207A06C40283 /* CFGradient-dummy.m */; };
-		F750CA9728173423333B89BC8BF263A3 /* CFGradient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95CE35E592CB8C7589B5EAA3FBD4448E /* CFGradient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F79915F8AA74B896C9F51FEEB801DDF2 /* Pods-CFGradient_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C19354E0600B02C168EE7B2E1E5E525 /* Pods-CFGradient_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -28,56 +30,58 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E9FA76344C1A78709F0BBEBB4DE7EA60;
+			remoteGlobalIDString = 62BF0E0937686DF81CC570BF983E48F9;
 			remoteInfo = CFGradient;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06E86DC6D6832B21E7AEFC6C1E1F9F2B /* CFPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CFPoint.h; sourceTree = "<group>"; };
 		0C19354E0600B02C168EE7B2E1E5E525 /* Pods-CFGradient_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CFGradient_Example-umbrella.h"; sourceTree = "<group>"; };
 		175522A4C8F7C18BE57D05A67CF5B3C3 /* CFGradient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CFGradient.framework; path = CFGradient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		185ED780E6BE7A941CC60F812AAD1702 /* Pods-CFGradient_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFGradient_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1ADC02E02B6A00E7BEED45C420884343 /* Pods-CFGradient_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CFGradient_Example.modulemap"; sourceTree = "<group>"; };
-		1DC33283871DCAED0572207A06C40283 /* CFGradient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CFGradient-dummy.m"; sourceTree = "<group>"; };
 		1ECCE5C61175BCE774D9B2040F03522B /* Pods_CFGradient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CFGradient_Tests.framework; path = "Pods-CFGradient_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DEFEF6737996474C3030C0613CCF01E /* Pods-CFGradient_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CFGradient_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3275CA075368D58383DBE51F3BA9729F /* CFGradient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CFGradient-dummy.m"; sourceTree = "<group>"; };
 		37D0B155C541FA6B5E1AB135F7E27375 /* Pods-CFGradient_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFGradient_Example-frameworks.sh"; sourceTree = "<group>"; };
+		456C33A898E412FBEBA28173129E4E19 /* CFGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CFGradientLayer.m; sourceTree = "<group>"; };
 		4C0DD163BF1408C73AF0F50204B31806 /* Pods-CFGradient_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CFGradient_Tests-umbrella.h"; sourceTree = "<group>"; };
-		51D9C47878DEF40D179770D933256A3E /* CFGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CFGradientLayer.h; sourceTree = "<group>"; };
-		59E0EF3B886D6EDA2D17800D58BBC471 /* CFGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CFGradient.h; sourceTree = "<group>"; };
-		5EF63A7D72C3EE941754B15E6835D6F5 /* CFGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CFGradientLayer.m; sourceTree = "<group>"; };
+		4F0F78B536A66C284031D1B5DCC48C08 /* CFGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CFGradientLayer.h; sourceTree = "<group>"; };
 		6CAC9E50F8C364475D586BE5F23F2F10 /* Pods-CFGradient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFGradient_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6EDDC5DDD4C2EEA3DEC0525BF9A71E0B /* CFPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CFPoint.h; sourceTree = "<group>"; };
 		702FF6BF95F055431E96307A56B4981F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70DF5DDF65F8CC50A6FC53994B5783BD /* CFGradient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CFGradient.xcconfig; sourceTree = "<group>"; };
+		7560A0F4ABC847D15BEFFCCC508DE9DD /* CFGradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CFGradient.h; sourceTree = "<group>"; };
 		7B4796CD2EE605D9D2081A28AFEE9E8B /* Pods-CFGradient_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFGradient_Tests-resources.sh"; sourceTree = "<group>"; };
-		7FD49A3A1020E1D0B4E26D4D310D45E1 /* CFPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CFPoint.m; sourceTree = "<group>"; };
-		8491971EB5C214BDEE7A906A2AC702B0 /* CFGradient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CFGradient.xcconfig; sourceTree = "<group>"; };
+		80758DF836187C028777ADEEDF833453 /* CFGradient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CFGradient.modulemap; sourceTree = "<group>"; };
+		814C0F02059D2323E89C4094945F2A13 /* CFGradientView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CFGradientView.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95CE35E592CB8C7589B5EAA3FBD4448E /* CFGradient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CFGradient-umbrella.h"; sourceTree = "<group>"; };
+		9D4D297DFF67AE02C4EB27B49B1E4C93 /* CFGradient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CFGradient-umbrella.h"; sourceTree = "<group>"; };
 		9DA76D99AB37452C9D5CEF5B78B93F22 /* Pods-CFGradient_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CFGradient_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A2A2549C6996A581A8AEADCB45D2C40D /* Pods-CFGradient_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CFGradient_Tests-dummy.m"; sourceTree = "<group>"; };
+		AF01163B3110571B6B38A3023B3B032C /* CFGradient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CFGradient-prefix.pch"; sourceTree = "<group>"; };
 		B955C9C6F0DBE8F4106E743493AD0504 /* Pods-CFGradient_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CFGradient_Tests.modulemap"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CEC1D3E57CA4ACBDC34D574836CBAC43 /* CFGradient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CFGradient.modulemap; sourceTree = "<group>"; };
 		CF5AF28723048A28FF4C96C0A8241479 /* Pods-CFGradient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFGradient_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D01C72051CF5CB20A450A623DA919D8D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D94605AA5BBCC9CBB4D445DD8E0B3D0D /* Pods-CFGradient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFGradient_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D977F8580A05856C63E22FDD5EAA5681 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC71B5EC2F4EDBB23F5C5C827454AC64 /* Pods-CFGradient_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CFGradient_Example-dummy.m"; sourceTree = "<group>"; };
 		E1D8132C02C3D77586E2DB3D287ECA41 /* Pods_CFGradient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CFGradient_Example.framework; path = "Pods-CFGradient_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E72EDFA9A79EA5715EDFDCEDA463ED1D /* Pods-CFGradient_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CFGradient_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EE7DC03A8EDCA30934FABA7E6E5E8B06 /* CFGradient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CFGradient-prefix.pch"; sourceTree = "<group>"; };
+		EC52299199630153CF1DFC724AB4C4E8 /* CFPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CFPoint.m; sourceTree = "<group>"; };
 		F0705CB72E6904730825C74885B39498 /* Pods-CFGradient_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CFGradient_Example-resources.sh"; sourceTree = "<group>"; };
 		F15676D74C13E97AFA71EF21F2A8A304 /* Pods-CFGradient_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CFGradient_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1BFDB061CF398FD24BEA6D371F499C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAF6A32DB0B7CED46D2EA60813FE396E /* Pods-CFGradient_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CFGradient_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCC6419539D0CE131B4416F2C2518C27 /* CFGradientView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CFGradientView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C008FA6225BD22DCF2638BA72DA89D5 /* Frameworks */ = {
+		27DA4730812AA172707F7CEB4A3B8AB1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5FA0DEF1157CB4B7B582DB51B9C36B3 /* Foundation.framework in Frameworks */,
+				0962F41DAD27AA63D404261C62767F00 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +132,31 @@
 			path = "Target Support Files/Pods-CFGradient_Tests";
 			sourceTree = "<group>";
 		};
+		6C09E59637F4AE75C2CB4913AE571D77 /* CFGradient */ = {
+			isa = PBXGroup;
+			children = (
+				73D1FC3D39102F9D4800BF3F9911AEDF /* CFGradient */,
+				9DB15286F0725A77759C9CD120B0C6DB /* Support Files */,
+			);
+			name = CFGradient;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		73D1FC3D39102F9D4800BF3F9911AEDF /* CFGradient */ = {
+			isa = PBXGroup;
+			children = (
+				7560A0F4ABC847D15BEFFCCC508DE9DD /* CFGradient.h */,
+				4F0F78B536A66C284031D1B5DCC48C08 /* CFGradientLayer.h */,
+				456C33A898E412FBEBA28173129E4E19 /* CFGradientLayer.m */,
+				FCC6419539D0CE131B4416F2C2518C27 /* CFGradientView.h */,
+				814C0F02059D2323E89C4094945F2A13 /* CFGradientView.m */,
+				06E86DC6D6832B21E7AEFC6C1E1F9F2B /* CFPoint.h */,
+				EC52299199630153CF1DFC724AB4C4E8 /* CFPoint.m */,
+			);
+			name = CFGradient;
+			path = CFGradient;
+			sourceTree = "<group>";
+		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,19 +177,9 @@
 		7640880F2B9449E883E21816314B02A7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				76D5B5141F983B0CEE648A326E44BC72 /* CFGradient */,
+				6C09E59637F4AE75C2CB4913AE571D77 /* CFGradient */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		76D5B5141F983B0CEE648A326E44BC72 /* CFGradient */ = {
-			isa = PBXGroup;
-			children = (
-				90732F8147022A49DF4DA9CA6915AD32 /* CFGradient */,
-				CDEDF6EE00F1C3C2F868E77A19D8C9B9 /* Support Files */,
-			);
-			name = CFGradient;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -174,17 +193,18 @@
 			);
 			sourceTree = "<group>";
 		};
-		90732F8147022A49DF4DA9CA6915AD32 /* CFGradient */ = {
+		9DB15286F0725A77759C9CD120B0C6DB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				59E0EF3B886D6EDA2D17800D58BBC471 /* CFGradient.h */,
-				51D9C47878DEF40D179770D933256A3E /* CFGradientLayer.h */,
-				5EF63A7D72C3EE941754B15E6835D6F5 /* CFGradientLayer.m */,
-				6EDDC5DDD4C2EEA3DEC0525BF9A71E0B /* CFPoint.h */,
-				7FD49A3A1020E1D0B4E26D4D310D45E1 /* CFPoint.m */,
+				80758DF836187C028777ADEEDF833453 /* CFGradient.modulemap */,
+				70DF5DDF65F8CC50A6FC53994B5783BD /* CFGradient.xcconfig */,
+				3275CA075368D58383DBE51F3BA9729F /* CFGradient-dummy.m */,
+				AF01163B3110571B6B38A3023B3B032C /* CFGradient-prefix.pch */,
+				9D4D297DFF67AE02C4EB27B49B1E4C93 /* CFGradient-umbrella.h */,
+				F1BFDB061CF398FD24BEA6D371F499C8 /* Info.plist */,
 			);
-			name = CFGradient;
-			path = CFGradient;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CFGradient";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -193,20 +213,6 @@
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CDEDF6EE00F1C3C2F868E77A19D8C9B9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CEC1D3E57CA4ACBDC34D574836CBAC43 /* CFGradient.modulemap */,
-				8491971EB5C214BDEE7A906A2AC702B0 /* CFGradient.xcconfig */,
-				1DC33283871DCAED0572207A06C40283 /* CFGradient-dummy.m */,
-				EE7DC03A8EDCA30934FABA7E6E5E8B06 /* CFGradient-prefix.pch */,
-				95CE35E592CB8C7589B5EAA3FBD4448E /* CFGradient-umbrella.h */,
-				D977F8580A05856C63E22FDD5EAA5681 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CFGradient";
 			sourceTree = "<group>";
 		};
 		F3A9C385C8CE4F1F9A7F78AF8D8FCF4C /* Pods-CFGradient_Example */ = {
@@ -230,22 +236,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		06B44B427793C4A4B88C361B243CB3FD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C4031F32DFA2A164B5B7941FDDAC28C /* CFGradient-umbrella.h in Headers */,
+				D7D135D690D08B1AAF1CF0849796FA51 /* CFGradient.h in Headers */,
+				648CA5DE326B7377590F0A11E9C12F5C /* CFGradientLayer.h in Headers */,
+				C0F78D4D1F3181702B5FA7611D3528A8 /* CFGradientView.h in Headers */,
+				155D01590F8CDFD60F17F993D1E4C661 /* CFPoint.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		596EBDBDC457E833F5FD92A6998E3F2C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F79915F8AA74B896C9F51FEEB801DDF2 /* Pods-CFGradient_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A097AEF884729BB8CA7AF661FF865A65 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F750CA9728173423333B89BC8BF263A3 /* CFGradient-umbrella.h in Headers */,
-				CB5FCBFB63BB4707A4FF26993C0587D0 /* CFGradient.h in Headers */,
-				B19D0E66DDB6DFDCCC72A2FEF3141AA6 /* CFGradientLayer.h in Headers */,
-				CA4CE099CAE1F49501EA27386F58E577 /* CFPoint.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +267,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		62BF0E0937686DF81CC570BF983E48F9 /* CFGradient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70C1BD7507B0904F93380BACD997D128 /* Build configuration list for PBXNativeTarget "CFGradient" */;
+			buildPhases = (
+				2AF77D6B9A2691819E2F92029F374A31 /* Sources */,
+				27DA4730812AA172707F7CEB4A3B8AB1 /* Frameworks */,
+				06B44B427793C4A4B88C361B243CB3FD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CFGradient;
+			productName = CFGradient;
+			productReference = 175522A4C8F7C18BE57D05A67CF5B3C3 /* CFGradient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		64F3915B5F4ADF653FBA1DE99BD6642C /* Pods-CFGradient_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1E2D3A0EAED7A9FC7148D44EFA1EFF3 /* Build configuration list for PBXNativeTarget "Pods-CFGradient_Example" */;
@@ -295,23 +319,6 @@
 			productReference = 1ECCE5C61175BCE774D9B2040F03522B /* Pods_CFGradient_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E9FA76344C1A78709F0BBEBB4DE7EA60 /* CFGradient */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E9795468AF712F3ACADDCD1B2FB42E84 /* Build configuration list for PBXNativeTarget "CFGradient" */;
-			buildPhases = (
-				1F9FDEC61226F1B70CE7CB6A11CCEC89 /* Sources */,
-				0C008FA6225BD22DCF2638BA72DA89D5 /* Frameworks */,
-				A097AEF884729BB8CA7AF661FF865A65 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CFGradient;
-			productName = CFGradient;
-			productReference = 175522A4C8F7C18BE57D05A67CF5B3C3 /* CFGradient.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -333,7 +340,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9FA76344C1A78709F0BBEBB4DE7EA60 /* CFGradient */,
+				62BF0E0937686DF81CC570BF983E48F9 /* CFGradient */,
 				64F3915B5F4ADF653FBA1DE99BD6642C /* Pods-CFGradient_Example */,
 				B28BD5FFF6AA517E9AECE318E7B6B115 /* Pods-CFGradient_Tests */,
 			);
@@ -341,13 +348,14 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1F9FDEC61226F1B70CE7CB6A11CCEC89 /* Sources */ = {
+		2AF77D6B9A2691819E2F92029F374A31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECE88C96C6631FED6BF13048A081A083 /* CFGradient-dummy.m in Sources */,
-				509B89C8294A081EED8B11CBF6D39C01 /* CFGradientLayer.m in Sources */,
-				2B6758C6926E771A4581C205C95171A6 /* CFPoint.m in Sources */,
+				7E4CD216CC8CA9CA1520BB5C9BA8EDE3 /* CFGradient-dummy.m in Sources */,
+				8D9F20DC40BB27C17D21287C851D251B /* CFGradientLayer.m in Sources */,
+				D3298EDA6660A5C422EB95B3EC986C87 /* CFGradientView.m in Sources */,
+				88D7252C50993AA77BC9EF0847434CB3 /* CFPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,15 +381,15 @@
 		9746A4AFE9E28F6D0F78F8151E7EA0F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CFGradient;
-			target = E9FA76344C1A78709F0BBEBB4DE7EA60 /* CFGradient */;
+			target = 62BF0E0937686DF81CC570BF983E48F9 /* CFGradient */;
 			targetProxy = AD6ECBA07B799CBF049171746CDB9F1C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		11422CD6EC36D26977B10D6C54B44810 /* Release */ = {
+		7AE606E305519B81E6D67E6A89A483CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8491971EB5C214BDEE7A906A2AC702B0 /* CFGradient.xcconfig */;
+			baseConfigurationReference = 70DF5DDF65F8CC50A6FC53994B5783BD /* CFGradient.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -494,37 +502,6 @@
 			};
 			name = Debug;
 		};
-		A6E27D836F945DA74DFBF6FA22F1E41B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8491971EB5C214BDEE7A906A2AC702B0 /* CFGradient.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CFGradient/CFGradient-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CFGradient/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CFGradient/CFGradient.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = CFGradient;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		B4E0252AE8A008096610335EFE7FD058 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CF5AF28723048A28FF4C96C0A8241479 /* Pods-CFGradient_Tests.release.xcconfig */;
@@ -587,6 +564,37 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_CFGradient_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE6B50FA4B668765E72106EB1082096E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70DF5DDF65F8CC50A6FC53994B5783BD /* CFGradient.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CFGradient/CFGradient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CFGradient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CFGradient/CFGradient.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CFGradient;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -677,6 +685,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		70C1BD7507B0904F93380BACD997D128 /* Build configuration list for PBXNativeTarget "CFGradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6B50FA4B668765E72106EB1082096E /* Debug */,
+				7AE606E305519B81E6D67E6A89A483CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A1E2D3A0EAED7A9FC7148D44EFA1EFF3 /* Build configuration list for PBXNativeTarget "Pods-CFGradient_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -691,15 +708,6 @@
 			buildConfigurations = (
 				BB84500E33612CD11BDA6E7BBC06A995 /* Debug */,
 				B4E0252AE8A008096610335EFE7FD058 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E9795468AF712F3ACADDCD1B2FB42E84 /* Build configuration list for PBXNativeTarget "CFGradient" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A6E27D836F945DA74DFBF6FA22F1E41B /* Debug */,
-				11422CD6EC36D26977B10D6C54B44810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
